@@ -1,0 +1,39 @@
+.contrainerEV{
+    @apply grid grid-cols-7 mx-auto my-10 w-[90%] 
+}
+
+.left-contrainer{
+    @apply col-span-5 w-full h-screen
+}
+
+.right-contrianer{
+    @apply col-span-2 w-full overflow-hidden
+}
+
+.side-bar{
+    @apply h-[32rem] bg-white shadow-xl rounded-lg relative
+}
+
+.side-bar div{
+    @apply pt-5
+}
+
+.side-bar img{
+    @apply w-[80%] mx-auto rounded-lg 
+}
+
+.register-btn{
+    @apply w-[80%] text-center m-auto p-3 bg-[#3434ff] text-white rounded-lg cursor-pointer
+}
+
+.side-bar h1{
+    @apply w-[80%] mx-auto my-5 text-xl font-Barlow
+}
+
+.left-content h1{
+    @apply font-Barlow uppercase text-xl mx-2
+}
+
+.left-content p{
+    @apply font-Barlow text-lg mx-2
+}

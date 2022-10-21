@@ -1,0 +1,22 @@
+.card{
+    @apply bg-white shadow-xl text-black rounded-2xl overflow-hidden grid grid-rows-2 duration-300 hover:scale-110 h-full
+}
+
+.card_img{
+    @apply m-0 p-0 overflow-hidden 
+}
+
+.card_img img{
+    @apply  h-full 
+}
+
+.card_content{
+    @apply p-3 font-Kanit
+}
+
+@media screen and (max-width:680px){
+    .card{
+        @apply grid-rows-res2
+    }
+}
+

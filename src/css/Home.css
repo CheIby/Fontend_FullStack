@@ -1,0 +1,25 @@
+.bg{
+    @apply bg-[url('../img/events.png')] h-72 w-full bg-no-repeat bg-bottom bg-cover relative
+}
+
+.content{
+    @apply absolute top-2/4 -translate-y-2/4 left-36 text-white font-black text-5xl 
+}
+
+.test{
+   @apply h-[420px] w-[320px]
+}
+
+.contrainer{
+    @apply grid grid-cols-layout m-16 gap-12 max-w-max
+}
+
+@media screen and (max-width:768px){
+   .bg{
+        @apply h-48
+   }
+
+   .content{
+        @apply text-2xl
+   }
+}

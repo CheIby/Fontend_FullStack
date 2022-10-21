@@ -1,0 +1,8 @@
+.logo{
+    @apply flex justify-center items-center text-black font-Raleway text-lg font-black
+}
+
+.navbar_BTN{
+    @apply  text-black flex justify-center items-center w-20 h-10 mx-3 duration-75 hover:opacity-50 uppercase font-Barlow font-black
+}
+
